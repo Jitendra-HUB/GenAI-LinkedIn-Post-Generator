@@ -18,7 +18,7 @@ A Python-based **Generative AI application** that helps you automatically create
 
 * **Python 3.10+**
 * **Pandas** (Data processing)
-* **LLM / OpenAI API** (Text generation)
+* **LLM / GROQ API** (Text generation)
 * **Git & GitHub** (Version control)
 * **Virtual Environment (.venv)**
 
@@ -84,21 +84,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-> If you don’t have `requirements.txt`, install manually:
-
-```bash
-pip install pandas openai
-```
-
----
 
 ### 4️⃣ Configure Environment Variables
 
 Create a `.env` file in the root folder:
 
 ```
-OPENAI_API_KEY=your_api_key_here
-MODEL_NAME=gpt-4.1-mini
+GROQ_API_KEY=your_api_key_here
+MODEL_NAME=llama-3.3-70b-versatile
 ```
 
 ---
@@ -116,15 +109,15 @@ python data/main.py
 Input:
 
 ```
-Topic: AI in Education
-Tone: Professional
-Length: Short
+Topic: Motivation
+Language:Hinglish 
+Length: Medium
 ```
 
 Output:
 
 ```
-🚀 Exploring how AI is transforming education! From personalized learning paths to intelligent tutoring systems, technology is reshaping the future of classrooms worldwide. Excited to see what’s next in this space. #AI #EdTech #Innovation
+🚀"Motivation ka sabse bada source humari khud ki zaroorat hoti hai. Jab humein kuch achieve karna hota hai, tab humari mehnat aur lagan badh jaati hai. Apne goals ko achieve karne ke liye, humein apne aap par vishwas rakhna chahiye. Motivation ke liye kisi bhi cheez ki zaroorat nahi, bas apne sapne ko poora karne ka junoon hona chahiye. Toh aaj se hi apne sapne ko poora karne ki shuruaat karein!" #Motivation #Success
 ```
 
 ---
@@ -139,7 +132,7 @@ Output:
 
 ## 🌟 Future Improvements
 
-* Web-based UI (Flask / Streamlit)
+* Web-based UI (Streamlit)
 * Multiple tone & format templates
 * Hashtag generator
 * Post scheduling integration
@@ -148,7 +141,7 @@ Output:
 
 ## 👤 Author
 
-**Jitendra Ji**
+**Jitendra Pradhan**
 Prompt Engineer | GenAI & ML Enthusiast
 
 🔗 GitHub: [https://github.com/Jitendra-HUB](https://github.com/Jitendra-HUB)
@@ -197,5 +190,5 @@ Contributions are welcome! If you'd like to improve this project:
 For suggestions, feedback, or collaboration:
 
 * GitHub: [https://github.com/Jitendra-HUB](https://github.com/Jitendra-HUB)
-* LinkedIn: (Add your LinkedIn profile link here)
+* LinkedIn: [https://www.linkedin.com/in/jitendra20/](https://www.linkedin.com/in/jitendra20/)
 
